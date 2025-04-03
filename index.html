@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyyat Hotels</title>
+    <style>
+        /* Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Body Styling */
+        body {
+            background-color: #0F3743;
+            color: aliceblue;
+            font-size: 16px;
+        }
+
+        /* Landing Page Header */
+        .landingPage {
+            background-image: url("https://wallpapers.com/images/featured/6bly12umg2d4psr2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Heading and Quotes */
+        .heading {
+            font-size: 70px;
+            font-family: 'Times', serif;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .quote {
+            font-size: 50px;
+            font-family: cursive;
+            color: white;
+            padding-top: 5px;
+        }
+
+        .headingPara {
+            color: white;
+            font-size: 18px;
+            padding: 30px 20px;
+            font-style: italic;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 50px 20px;
+            background-color: #2A2A2A;
+            border-radius: 10px;
+            margin: 30px auto;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        h2.mainHeader {
+            color: #CF6402;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        h3.subPoints {
+            color: cyan;
+            font-size: 26px;
+            margin-top: 20px;
+        }
+
+        p {
+            color: white;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: justify;
+            margin-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .links {
+            color: #f70303;
+            text-decoration: none;
+        }
+
+        .links:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        ul li {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Price Table */
+        .price {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+
+        .price th,
+        .price td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #f70303;
+        }
+
+        .price th {
+            background-color: #4F2D18;
+            color: white;
+        }
+
+        .price td {
+            background-color: #333;
+        }
+
+        .price tr:hover td {
+            background-color: pink;
+            color: black;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4F2D18;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footpara {
+            color: white;
+            font-size: 16px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .heading {
+                font-size: 50px;
+            }
+
+            .quote {
+                font-size: 40px;
+            }
+
+            .headingPara {
+                font-size: 16px;
+                padding: 20px;
+            }
+
+            .mainHeader {
+                font-size: 28px;
+            }
+
+            .subPoints {
+                font-size: 22px;
+            }
+
+            .price th,
+            .price td {
+                padding: 10px;
+            }
+
+            p {
+                font-size: 16px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .price {
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="landingPage">
+        <h1 class="heading">Welcome to Hyyat Hotels!</h1>
+        <h1 class="quote">Indulge in</h1>
+        <h1 class="quote">Unparalleled Luxury</h1>
+
+        <p class="headingPara">
+            "Step into our world of boundless elegance, where dreams take flight and every moment is a cherished delight. Welcome to a sanctuary of serenity, where opulence meets warmth and extraordinary memories find their way. Embrace the enchantment, as we ensure your comfort, joy, and dreams become our utmost art."
+        </p>
+    </header>
+
+    <main>
+        <h2 class="mainHeader">Hotel Chain</h2>
+        <ul>
+            <li>Types of Hotels</li>
+            <li>Cuisine</li>
+            <li>Price</li>
+        </ul>
+
+        <section>
+            <h2 class="bodyhead">1. Types of Hotels</h2>
+            <h3 class="subPoints">Luxury Hotels:</h3>
+            <p>These hotels offer the highest level of <em>comfort, luxury, and personalized service</em>. They often feature spacious rooms or suites, upscale amenities, fine dining restaurants, spas, fitness centers, and other lavish facilities. <a href="https://en.wikipedia.org/wiki/Category:Luxury_hotels" target="_blank" class="links">Luxury hotels</a> are known for their attention to detail and strive to provide a memorable and indulgent experience.</p>
+
+            <h3 class="subPoints">Business Hotels:</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Hotel#Types" target="_blank" class="links">Business Hotel</a> primarily caters to <em>corporate travelers and provides convenient amenities for their needs</em>. They typically have well-equipped meeting rooms, conference facilities, high-speed internet access, business centers, and executive lounges. Business hotels are strategically located near business districts or major transportation hubs to facilitate easy travel for business travelers.</p>
+
+            <h3 class="subPoints">Resort Hotels:</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Hotel#Types" target="_blank" class="links">Resort hotels</a> are designed for <em>leisure and relaxation</em>. They are often situated in scenic locations, such as beachfronts, mountains, or lush landscapes. Resort hotels typically offer a wide range of recreational facilities like swimming pools, spas, sports facilities, entertainment options, and multiple dining venues. They aim to provide a complete vacation experience within the hotel premises.</p>
+        </section>
+
+        <section>
+            <h2 class="bodyhead">2. Cuisine</h2>
+            <h3 class="subPoints">Italian Cuisine:</h3>
+            <p>Italian cuisine is known for its simplicity, fresh ingredients, and bold flavors. It includes dishes like <u>pasta, pizza, risotto, antipasti, gelato, and tiramisu.</u></p>
+
+            <h3 class="subPoints">French Cuisine:</h3>
+            <p>French cuisine is renowned for its sophisticated techniques and delicate flavors. It features dishes such as <u>coq au vin, bouillabaisse, escargots, croissants, and crème brûlée</u>.</p>
+
+            <h3 class="subPoints">Chinese Cuisine:</h3>
+            <p>Chinese cuisine is diverse and varies across different regions. It includes dishes like <u>Peking duck, dim sum, stir-fries, dumplings, sweet and sour chicken, and fried rice</u>.</p>
+
+            <h3 class="subPoints">Indian Cuisine:</h3>
+            <p>Indian cuisine is characterized by its vibrant spices and rich flavors. It offers a wide variety of regional cuisines, such as <u>North Indian (e.g., butter chicken, biryani), South Indian (e.g., dosa, idli), and Punjabi (e.g., tandoori chicken, naan)</u>.</p>
+        </section>
+
+        <section>
+            <h2 class="bodyhead">3. Price</h2>
+            <table class="price">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Luxury</td>
+                        <td>$600</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>$800</td>
+                    </tr>
+                    <tr>
+                        <td>Resort</td>
+                        <td>$1000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footpara">© 2023 Hrishikesh Kelkar's page. All rights reserved. <br> Send us your feedback at help@codechef.com</p>
+    </footer>
+
+</body>
+</html>
